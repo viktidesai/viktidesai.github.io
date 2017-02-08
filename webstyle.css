@@ -1075,7 +1075,7 @@ figure {
   max-width: 80vh;
 }
 figure #sea {
-  fill: #9BC4EB;
+  fill: pink;
 }
 figure #hi {
   fill: rgba(255, 255, 255, 0.2);
@@ -1087,12 +1087,12 @@ figure #shad {
   fill: rgba(0, 0, 0, 0.05);
 }
 figure #land {
-  fill: #8B9C52;
+  fill: white;
   -webkit-animation: spin 10s linear infinite forwards;
           animation: spin 10s linear infinite forwards;
 }
 figure .vehicles use {
-  fill: #F0FBFC;
+  fill: black;
   -webkit-animation: orbit 15s linear infinite;
           animation: orbit 15s linear infinite;
   -webkit-transform-origin: center center;
@@ -1177,5 +1177,3 @@ figure #bike1 use {
   }
 }
 
-=======
->>>>>>> parent of 1b43cd7... Add animation
