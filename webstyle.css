@@ -11,9 +11,14 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ff759e;
-
+   /* background-color: #ff759e;
+*/
     font-family: 'Alegreya Sans', sans-serif;
+    background: pink; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, pink, #b49eff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, pink, #b49eff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, pink, #b49eff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, pink, #b49eff); /* Standard syntax */
 }
 
 /* Float the list items side by side */
@@ -191,7 +196,7 @@ font-family: 'Fredericka the Great', cursive;
     font-size: 50px;
     /*background-color: #fffcea;*/
  /*   padding: 40px;*/
-      color: #ff7cc2;
+      color:  #b49eff;
       text-align: center;
 }
 
@@ -677,10 +682,10 @@ a:hover
 #div02
 {
    background: pink; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(-90deg, pink, white); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(-90deg, pink, white); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(-90deg, pink, white); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(-90deg, pink, white); /* Standard syntax */
+  background: -webkit-linear-gradient(-90deg, pink, #b49eff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, pink, #b49eff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, pink, #b49eff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, pink, #b49eff); /* Standard syntax */
   padding-bottom: 30px;
   padding-top: 30px;
 }
@@ -1075,7 +1080,11 @@ figure {
   max-width: 80vh;
 }
 figure #sea {
-  fill: pink;
+    fill: pink; /* For browsers that do not support gradients */
+fill: -webkit-linear-gradient(-90deg, pink,); /* For Safari 5.1 to 6.0 */
+  fill: -o-linear-gradient(-90deg, pink, #b49eff); /* For Opera 11.1 to 12.0 */
+  fill: -moz-linear-gradient(-90deg, pink, #b49eff); /* For Firefox 3.6 to 15 */
+  fill: linear-gradient(-90deg, pink, #b49eff); /* Standard syntax */
 }
 figure #hi {
   fill: rgba(255, 255, 255, 0.2);
