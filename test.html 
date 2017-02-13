@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<style type="text/css">
+	body
+	{
+
+  background: pink; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, pink, #b49eff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, pink, #b49eff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, pink, #b49eff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, pink, #b49eff); /* Standard syntax */
+}
+	
+</style>
+
+</body>
+</html>
